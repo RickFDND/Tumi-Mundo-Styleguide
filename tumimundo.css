@@ -1,0 +1,117 @@
+body {
+    /* Kleuren */
+    
+    /* Home Background */
+        --van-kleur-home: #3F93B7;
+        --naar-kleur-home: #1C5872;
+     
+    /* Story nightmode */
+        --van-kleur-story-nightmode: #040404;
+        --naar-kleur-story-nightmode: #471871;
+     
+    /* Menu lay-over */
+        --menu-lay-over-kleur: #292929;
+        --menu-lay-over-opacity: 95%;
+    
+    /* Menu knoppen */
+        --button-color-one: #3F92B6;
+        --hover-button-color-one: #3D7A95;
+        
+        --button-color-two: #599AE7;
+        --hover-button-color-two: #4D7EB7;
+        
+        --button-color-three: #954BE2;
+        --hover-button-color-three: #451ACF;
+        
+        --button-color-four: #06A192;
+        --hover-button-color-four: #078377;
+        
+        --button-color-five: #FD8C73;
+        --hover-button-color-five: #EA775E;
+    
+    /* Methode kleuren*/
+        --methode-background-color: ;
+        --methode-color-one: #1CB854;
+        --methode-color-two: #37C6AB;
+        --methode-color-three: #059CC0;
+        --methode-color-four: #FF8C59;
+        --methode-color-five: #FFA02E;
+    
+    /* Statistics */
+        --van-kleur-statistics: #219B9B;
+        --naar-kleur-statistics: #1B7070;
+    
+    /* Testing */
+        --van-kleur-testing: #21599B;
+        --naar-kleur-testing: #1B3D70;
+    
+    /* Profile */
+        --van-kleur-profile: #F0775D;
+        --naar-kleur-profile: ##B45751;
+    
+    /* Method */
+        --van-kleur-method: #471871;
+        --naar-kleur-method: #142151;
+    
+    /* Typografie */
+        --font-text: 'Poppins', sans-serif; 
+    
+    /* Font-sizes*/
+        --font-size-h1: 1.8rem;
+        --font-size-h2: 1.25rem;
+        --font-size-h3: 0.75rem;
+        --font-size-story-title: 0.75rem;
+        --font-size-story-description: 0.5rem;
+    
+    /* Font-weights */
+        --font-weight-h1: 600;
+        --font-weight-h2: 600;
+        --font-weight-h3: 400;
+        --font-weight-story-title: 600;
+        --font-weight-story-description: 400;
+    
+    /* Line-heights */
+        --line-height-h1: 3rem;
+        --line-height-h2: 1.375rem;
+        --line-height-h3: 1.3125rem;
+        --line-height-story-title: 0.938rem;
+        --line-height-story-description: 0.75rem;
+    
+    /* Formulier elementen */
+}
+
+/* Buttons*/
+.filter-button {
+    background-color: var(--button-color-three);
+    max-width: 93px;
+    height: 28px;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 8px 4px 8px;
+    gap: 4px;
+    color: white;
+}
+
+.pijl-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button-color-three);
+    width: 48px;
+    height: 32px;
+    border-radius: 8px;
+    border:none;
+    padding: 4px 12px 4px 12px;
+    gap: 10px;
+}
+
+.continue-button{
+    background-color: var(--button-color-three);
+    width: 338px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    color: white;
+}
