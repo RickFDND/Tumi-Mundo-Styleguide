@@ -83,6 +83,7 @@ body {
     h1, h2 {
         color: white;
     }
+    
     h3 {
         font-size: var(--font-size-h3);
         font-weight: var(--font-weight-h3);
@@ -90,6 +91,12 @@ body {
         margin: 0;
     }
     font-family: var(--font-text);
+
+    p {
+        font-size: var(--font-size-story-title);
+        line-height: var(--line-height-story-description);
+        font-weight: var(--font-weight-story-description);
+    }
 }
 
 /* Buttons*/
